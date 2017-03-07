@@ -29,7 +29,7 @@ typedef struct {      // eg: -12AAAAAAAAAAAA
 void Usage ()
 {
     char* Usage =
-    "Usage: ./pilefilt <in.mpileupfile> <out.mpileupfile>\n" ;
+    "Usage: ./pileupfilt <in.mpileupfile> <out.mpileupfile>\n" ;
     fprintf(stderr, "%s", Usage);
 }
 
